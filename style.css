@@ -1,0 +1,108 @@
+
+* {
+    margin: 0;
+        padding: 0;
+            box-sizing: border-box;
+            }
+
+            body {
+                font-family: Arial, sans-serif;
+                    background: linear-gradient(#dcedc8, #a5d6a7);
+                        color: #1b4332;
+                            text-align: center;
+                                padding: 25px 15px;
+                                    min-height: 100vh;
+                                    }
+
+                                    header {
+                                        padding: 20px;
+                                        }
+
+                                        h1 {
+                                            font-size: 30px;
+                                                margin-bottom: 10px;
+                                                }
+
+                                                header p {
+                                                    font-size: 16px;
+                                                    }
+
+                                                    .fluxograma {
+                                                        max-width: 650px;
+                                                            margin: 25px auto;
+                                                                padding: 20px;
+                                                                    background: rgba(255,255,255,0.8);
+                                                                        border-radius: 18px;
+                                                                            box-shadow: 0 5px 15px #0002;
+                                                                            }
+
+                                                                            .etapa {
+                                                                                background: #e8f5e9;
+                                                                                    border: 2px solid #388e3c;
+                                                                                        border-radius: 12px;
+                                                                                            padding: 18px;
+                                                                                                max-width: 350px;
+                                                                                                    margin: auto;
+                                                                                                        font-weight: bold;
+                                                                                                        }
+
+                                                                                                        .inicio {
+                                                                                                            background: #2e7d32;
+                                                                                                                color: white;
+                                                                                                                    border-radius: 30px;
+                                                                                                                    }
+
+                                                                                                                    .decisao {
+                                                                                                                        background: #fff3cd;
+                                                                                                                            border-color: #d69e00;
+                                                                                                                            }
+
+                                                                                                                            .seta {
+                                                                                                                                font-size: 30px;
+                                                                                                                                    margin: 8px;
+                                                                                                                                        color: #2e7d32;
+                                                                                                                                        }
+
+                                                                                                                                        button {
+                                                                                                                                            background: #2e7d32;
+                                                                                                                                                color: white;
+                                                                                                                                                    border: none;
+                                                                                                                                                        padding: 13px 25px;
+                                                                                                                                                            margin: 10px 5px;
+                                                                                                                                                                border-radius: 8px;
+                                                                                                                                                                    font-size: 16px;
+                                                                                                                                                                        cursor: pointer;
+                                                                                                                                                                            transition: 0.3s;
+                                                                                                                                                                            }
+
+                                                                                                                                                                            button:hover {
+                                                                                                                                                                                background: #1b5e20;
+                                                                                                                                                                                    transform: scale(1.05);
+                                                                                                                                                                                    }
+
+                                                                                                                                                                                    #resultado {
+                                                                                                                                                                                        margin: 20px auto;
+                                                                                                                                                                                            padding: 20px;
+                                                                                                                                                                                                max-width: 400px;
+                                                                                                                                                                                                    background: #f1f8e9;
+                                                                                                                                                                                                        border: 2px solid #388e3c;
+                                                                                                                                                                                                            border-radius: 12px;
+                                                                                                                                                                                                                display: none;
+                                                                                                                                                                                                                    line-height: 1.8;
+                                                                                                                                                                                                                    }
+
+                                                                                                                                                                                                                    footer {
+                                                                                                                                                                                                                        margin-top: 25px;
+                                                                                                                                                                                                                            padding: 15px;
+                                                                                                                                                                                                                            }
+
+                                                                                                                                                                                                                            @media (max-width: 480px) {
+                                                                                                                                                                                                                                h1 {
+                                                                                                                                                                                                                                        font-size: 24px;
+                                                                                                                                                                                                                                            }
+
+                                                                                                                                                                                                                                                .etapa {
+                                                                                                                                                                                                                                                        padding: 14px;
+                                                                                                                                                                                                                                                            }
+                                                                                                                                                                                                                                                            }
+                                                                                                                                                                                                                                                            
